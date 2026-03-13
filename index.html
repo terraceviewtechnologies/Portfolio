@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8" <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>John Slama</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="nav" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="hidden">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contact me!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div>
+            <p class="">Fill out this form with your name, email, and a quick message, and we will get back to you as
+                soon as possible!</p>
+        </div>
+        <form action="https://formspree.io/f/xnqkwyak" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input name="name" type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input name="email" type="text" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Submit</button>
+        </form>
+        <div>
+            <p>Or send an email to Jslama911@gmail.com</p>
+        </div>
+    </div>
+    <div class="top-img-container">
+        <img src="images/Landing_intro.png" class="top-img" alt="Responsive image">
+    </div>
+    <div class="about">
+        <div class="about-text">
+            <h1 class="mb-5">About me</h1>
+            <p class="text-center">Hi there! My name is John and I am a driven individual with a passion
+                for software engineering. I recently graduated with a degree in Software Engineering at WGU,
+                where I was able to further develop my skills and knowledge in this exciting field.</p>
+
+            <p class="text-center">I currently work as a travel respiratory therapist. I have worked at
+                hospitals all over the country!</p>
+            <p class="text-center">I love to travel and see different ways of doing things.</p>
+
+            <p class="text-center">I am excited to see where this new chapter of my life takes me and
+                look forward to contributing to the field of software engineering in meaningful ways. Thank
+                you for taking the time to learn a little bit about me!</p>
+        </div>
+        <div class="bottom-img-container">
+            <img src="images/John.jpeg" class="bottom-img" alt="Responsive image">
+        </div>
+    </div>
+
+    <h1 style="text-align: center; color: white;">Projects</h1>
+
+    <div class="card-container" style="margin-bottom: 2rem;">
+        <div class="card">
+            <img src="images/productivity.png" class="card-img-top" alt="..." height=294px>
+            <div class="card-body">
+                <h5 class="card-title">Productivity</h5>
+                <p class="card-text">Desktop web application that includes functions designed to help
+                    you stay on task.
+                <p>
+                <p class="card-text">Written with HTML, CSS, Javascript, and Bootstrap.
+                <p></p>
+                <p class="card-text">Makes use of geolocation, Weater API, and Youtube API.
+                <p></p>
+            </div>
+            <div class="card-footer">
+                <a href="https://jslama911.github.io/Productivity_App/"> <button type="button"
+                        class="btn-hover color-1">Visit
+                        Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Appointments.png" class="card-img-top" alt="..." height="294px">
+            <div class="card-body">
+                <h5 class="card-title">Appointment Scheduling app</h5>
+                <p class="card-text">Appointment scheduling application made for school.</p>
+                <p class="card-text">Written in Java. Uses JavaFX for the UI and JDBC for the database
+                    connection.</p>
+                <p class="card-text">Uses mySQL for the database.</p>
+            </div>
+            <div class="card-footer">
+                <a href="https://github.com/jslama911/Appointments"> <button type="button"
+                        class="btn-hover color-1">Visit
+                        Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Chart_maker.png" class="card-img-top" alt="..." height="294px">
+            <div class="card-body">
+                <h5 class="card-title">Chart Maker</h5>
+                <p class="card-text">Application that allows the user to make a chart.</p>
+                <p class="card-text">Written with HTML, CSS, and Javascript.</p>
+                <p class="card-text">Makes use of Chart.js.</p>
+            </div>
+            <div class="card-footer">
+                <a href="https://jslama911.github.io/Chart-maker2.0/"> <button type="button"
+                        class="btn-hover color-1">Visit
+                        Website</button></a>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <a href="projects.html"> <button type="button" class="btn-hover color-1">More Projects!</button></a>
+
+    </div>
+    <div class="footer">
+        <p>Email me at:
+            <a href="mailto:jslama911@gmail.com">Jslama911@gmail.com</a>
+        </p>
+        <a href="https://github.com/jslama911">GitHub</a>
+        <a href="https://www.linkedin.com/in/john-slama-baa1a1254/">LinkedIn</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
