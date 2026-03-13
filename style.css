@@ -3,6 +3,9 @@ body{
     padding:0;
     background:black;
     color:white;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
 }
 
 a{
